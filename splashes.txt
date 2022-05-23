@@ -425,13 +425,19 @@ Board game version also available!
 Honey, I waxed the copper!
 Plant-based light sources!
 Made by "real" people!
-poopy
-poopy
-poopy
-poopy
-poopy
-poopy
-poopy
-poopy
-poopy
-poopy
+i love banana
+i love bacon
+i love egg
+i love coffee
+i hate banana
+i hate bacon
+i hate egg
+i hate coffee
+banana is awesome
+bacon is awesome
+egg is awesome
+coffee is awesome
+i own <integer> bananas
+i own <integer> bacons
+i own <integer> eggs
+i own <integer> coffees

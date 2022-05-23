@@ -1,0 +1,4 @@
+i love <noun>
+i hate <noun>
+<noun> is awesome
+i own <integer> <noun>s
