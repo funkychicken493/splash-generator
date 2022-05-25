@@ -1,4 +1,8 @@
+from ctypes import sizeof
+from itertools import zip_longest
 import random
+
+random.seed(1)
 
 n = '\n'
 phadjective = "<adj>"
@@ -25,15 +29,23 @@ def converttxttoarray(text):
 
 def digestgrammar(t):
     output = ""
-    for noun in nouns:
-        output = output + t.replace(phnoun, noun) + n
+    for i in range(10):
+        i = t
+        i = i.replace(phadjective, random.choice(adjectives))
+        i = i.replace(phnoun, random.choice(nouns))
+        i = i.replace(phverb, random.choice(verbs))
+        i = i.replace(phadverb, random.choice(adverbs))
+        i = i.replace(phpreposition, random.choice(prepositions))
+        i = i.replace(phinterjection, random.choice(interjections))
+        i = i.replace(phinteger, random.choice(integers))
+        output += i + n
     return output
 
 #set the text that we will be adding onto
 text = gettext('origin.txt')
 
 #get adjectives from adjectives.txt
-adjectives = gettext('adjectives.txt')
+adjectives = converttxttoarray(gettext('adjectives.txt'))
 
 #get nouns from nouns.txt
 nouns = converttxttoarray(gettext('nouns.txt'))

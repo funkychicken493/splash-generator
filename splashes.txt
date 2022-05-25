@@ -427,17 +427,41 @@ Plant-based light sources!
 Made by "real" people!
 i love banana
 i love bacon
+i love coffee
+i love banana
+i love coffee
+i love egg
 i love egg
 i love coffee
+i love bacon
+i love bacon
 i hate banana
-i hate bacon
-i hate egg
+i hate banana
 i hate coffee
+i hate bacon
+i hate coffee
+i hate coffee
+i hate banana
+i hate banana
+i hate egg
+i hate egg
 banana is awesome
-bacon is awesome
-egg is awesome
+banana is awesome
 coffee is awesome
-i own <integer> bananas
-i own <integer> bacons
-i own <integer> eggs
-i own <integer> coffees
+bacon is awesome
+coffee is awesome
+banana is awesome
+egg is awesome
+bacon is awesome
+coffee is awesome
+coffee is awesome
+i own four bacons
+i own four bananas
+i own 4 bananas
+i own 1 eggs
+i own 4 eggs
+i own three eggs
+i own 4 eggs
+i own 4 bananas
+i own one coffees
+i own four bananas
